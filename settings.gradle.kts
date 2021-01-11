@@ -1,1 +1,1 @@
-rootProject.name = "spigot-example"
+rootProject.name = "staff-sys"

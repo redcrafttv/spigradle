@@ -1,4 +1,14 @@
-name: Spigot template
-author: Mik
+name: StaffSys
 version: @version@
-main: org.example.spigot_template.SpigotTemplate
+main: eu.brickpics.staffsys.StaffSys
+prefix: StaffSys
+authors: [KeinOptifine]
+website: https://brickpics.eu
+depend: [SmartInvs, ProtocolLib]
+commands:
+  register:
+    usage: /register <name> <punishment> <endtime>
+  staff:
+    usage: /staff
+  inspect:
+    usage: /inspect <Player>
